@@ -9,4 +9,9 @@ Tested in Chrome 30.0.1599.69 on OSX, Oct. 11, 2013
 
 How to use it
 -------------
-Drag the <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='//raw.github.com/tforbus/youtube-fixed-video-bookmarklet/master/script.js';})();">YouTube Fixed Video Bookmarklet</a> into your bookmarks bar.
+GitHub doesn't allow you to link to a JavaScript function, so here's the code for the link. Put that link somewhere, and then drag it to your bookmarks bar.
+```javascript
+<a class='bookmarklet' href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='//raw.github.com/tforbus/youtube-fixed-video-bookmarklet/master/script.js';})();">YouTube Fixed Video Bookmarklet</a>
+```
+
+If you don't want to do that, you can go to [this website](http://www.whattheforbus.com/youtube-bookmarklet) which already contains the link, so you just need to drag and drop.
