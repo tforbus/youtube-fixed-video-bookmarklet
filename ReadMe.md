@@ -15,3 +15,5 @@ GitHub doesn't allow you to link to a JavaScript function, so here's the code fo
 ```
 
 If you don't want to do that, you can go to [this website](http://www.whattheforbus.com/youtube-bookmarklet) which already contains the link, so you just need to drag and drop.
+
+Once that's in your bookmarks bar, just click it when you're on a YouTube video page, and the code is activated.
