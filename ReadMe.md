@@ -10,7 +10,7 @@ Tested in Chrome 30.0.1599.69 on OSX, Oct. 11, 2013
 How to use it
 -------------
 GitHub doesn't allow you to link to a JavaScript function, so here's the code for the link. Put that link somewhere, and then drag it to your bookmarks bar.
-```javascript
+```html
 <a class='bookmarklet' href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='//raw.github.com/tforbus/youtube-fixed-video-bookmarklet/master/script.js';})();">YouTube Fixed Video Bookmarklet</a>
 ```
 
