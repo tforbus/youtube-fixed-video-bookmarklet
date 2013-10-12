@@ -1,6 +1,11 @@
 YouTube Fixed Video
 ===================
 
+As a Google Chrome App
+----------------------
+If you're using Google Chrome, you can install this as an application. 
+Download [Video Pinner](https://chrome.google.com/webstore/detail/video-pinner/egfhbaheiflmihggjcfmnmchkijkcdpl) from the Google Chrome webstore!
+
 What is it
 -----------
 Pins the video on a YouTube video page to the top while you scroll so you can rage at comments while you continue to watch the video.
