@@ -6,7 +6,7 @@ var player = document.getElementById('player')
 
 footer.style.visibility = 'hidden'
 window.onscroll = function(e) {
-	if(window.pageYOffset >= playerRect.top) {
+	if(window.pageYOffset >= playerRect.top && window.pageYOffset > 0) {
 		player.style.position = 'fixed'
 		player.style.top = '0px'
 		player.style.zIndex = 999
