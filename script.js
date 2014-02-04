@@ -1,8 +1,13 @@
+if(document.URL.indexOf("www.youtube.com") == -1){
+	window.location.href = "https://github.com/tforbus/youtube-fixed-video-bookmarklet/blob/master/script.js"
+}
+
 var player = document.getElementById('player')
   , content = document.getElementById('watch7-content')
   , sideWatch = document.getElementById('watch7-sidebar')
   , footer = document.getElementById('footer-container')
   , playerRect = player.getBoundingClientRect()
+  , vevoBackground = document.getElementsByClassName("watch-branded-banner")[0]
 
 footer.style.visibility = 'hidden'
 window.onscroll = function(e) {
@@ -19,6 +24,8 @@ window.onscroll = function(e) {
 		content.style.zIndex = 997
 		content.style.top = player.clientHeight+'px'
 
+		vevoBackground.style.backgroundColor = "rgba(255,255,255,0)"
+		
 	} else {
 		player.style.position = ''
 		player.style.top = ''
@@ -30,3 +37,4 @@ window.onscroll = function(e) {
 		content.style.top = ''
 	}
 }
+
