@@ -9,6 +9,8 @@ window.onscroll = function(e) {
 	if(window.pageYOffset >= playerRect.top && window.pageYOffset > 0) {
 		player.style.position = 'fixed'
 		player.style.top = '0px'
+    player.style.left = '0px'
+    player.style.left = '0px'
 		player.style.zIndex = 999
 
 		sideWatch.style.position = 'absolute'
